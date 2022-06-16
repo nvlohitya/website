@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lohitya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images2/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <!-- <li> <a href="about.html">ABOUT</a></li> -->
+                    <li> <a href="Course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT </a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- ----------- Course ----------      -->
+
+    <section class="course">
+        <h1>Courses</h1>
+        <p>These are the list of courses completed which I have completed/currently am pursuing </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                <p>I have completed my intermediate from <b>Sagar Public School, Saket Nagar Bhopal with a percentage of 96.4% in class 12th </b>. I have completed my <b>class 10th from Delhi Public School , Kolar Road, Bhopal with a percentage of 96.6% </b>. </p>
+            </div>
+            <div class="course-col">
+                <h3>B.Tech</h3>
+                <p>I am currently pursuing my <b>B.Tech in Materials Science and Metallurgical Engineering from IIT Hyderbad. </b>My CGPA by the end of <b>4th</b> semester is <b>8.62</b> I have completed courses on Introduction To Programming , Calculus , Thermodynamics , Computational Methods , Linear Algebra , Artificial Intelligence , Digital Systems , Probability and Random Variables , XRD , Fundamentals of Physical Metallurgy to name a few.</p>
+            </div>
+            <div class="course-col">
+                <h3>B.Sc.(Online Degree)</h3>
+                <p>I am pursuing <b>Programming and Data Science Degree from IIT Madras</b> . My current CGPA is <b>9.8 </b>.  I have completed courses on Data Structures and Algorithms,Statistics , Bayesian Estimate , Probability , Python , DBMS , Java , Application Development and have made projects which includes building this website , a Kanban Application using Flask,Jinja and MySQL. </p>
+            </div>
+        </div>
+
+    </section>
+    <!-- -------- Facilities ----------  -->
+
+    <section class="facilities">
+        <h1>My Hobbies</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores?</p> -->
+
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images2/library.png" alt="">
+                <h3>Reading</h3>
+                <p>I love reading books. My favorite authors are J.K. Rowling and Dan Brown . 
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images2/badminton.webp" alt="">
+                <h3>Playing</h3>
+                <p>I love playing badminton in my free time and also love swimming . 
+                </p>
+            </div>
+            <div class="facilities-col">
+                <img src="images2/cafeteria.png" alt="">
+                <h3>Informal Group Discussion</h3>
+                <p>These are the best when you get time to know about your colleagues with whom you are working on projects .
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+    <!-- ----------Footer---------  -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>I am a passionate programmer and have interest in web and software development. I love playing cricket and badminton .Below are my social media handles and github</p>
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- -------------script--------------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

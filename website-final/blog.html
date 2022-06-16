@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lohitya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images2/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <!-- <li> <a href="about.html">ABOUT</a></li> -->
+                    <li> <a href="Course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT </a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Courses and Certificates</h1>
+        <p>This sections takes a look into the courses which I have completed during my college and the various pors which I have held and certificates which I have received.</p>
+    </section>
+
+    <!-- ------blog page content -----  -->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="images2/courses.jpg" alt="">
+                <h2>Courses and Certificates</h2>
+                <p>I have completed non-departmental courses such as Introduction to Programming , Artificial Intelligence , Calculus , Linear Algebra , Basic Electrical Engineering , Digital Systems , Introduction To Probability , Cognitive Science , Personality Development , Digital Fabrication , Differential Equation Quantum Mechanics to name a few</p>
+                <br>
+                <p>I have completed my departmental courses such as Computational Methods , Thermodynamics , X-Ray Diffraction , Mechanics of Materials , Fundamentals of Physical Metallurgy , Imaging in Materials Science , Material Synthesis , Mechanical Behavior of Metals , Transport Phenomenon , Diffusion to name a few </p>
+                <br>
+                <p>In my Programming and Data Science course(online) I have completed topis including JAVA, DBMS , DSA , Web Development , Statistics , Calculus , Linear Algebra , Python </p>
+                <br>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+
+                        <input type="text" name="" id="" placeholder="Enter Name">
+                        <input type="email" name="" id="" placeholder="Enter Email">
+                        <textarea name="" id=""  rows="5" placeholder="Your comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn"> POST COMMENT </button>
+
+                    </form>
+                </div>
+
+            </div>
+            <div class="blog-right">
+                 <h3>Courses and Credits Earned</h3>   
+                 <div>
+                    <span>Basic Sciences </span>
+                    <span>16</span>
+                 </div>
+                 <div>
+                    <span>Departmental Core Theory</span>
+                    <span>33</span>
+                 </div>
+                 <div>
+                    <span>Basic Engineering Skills </span>
+                    <span>14</span>
+                 </div>
+                 <div>
+                    <span>Liberal Arts Elective</span>
+                    <span>3</span>
+                 </div>
+                 <div>
+                    <span>Programming and Data Science</span>
+                    <span>48</span>
+                 </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- ----------Footer---------  -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>I am a passionate programmer and have interest in web and software development. I love playing cricket and badminton .Below are my social media handles and github</p>
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- -------------script--------------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>

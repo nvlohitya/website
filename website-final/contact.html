@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lohitya</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"> <img src="images2/logo.jpg" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li> <a href="index.html">HOME</a></li>
+                    <!-- <li> <a href="about.html">ABOUT</a></li> -->
+                    <li> <a href="Course.html">COURSE</a></li>
+                    <li> <a href="blog.html">BLOG</a></li>
+                    <li> <a href="contact.html">CONTACT </a></li>
+                </ul>
+
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact</h1>
+    </section>
+
+<!-- ------- Contact Us --------  -->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.169111331363!2d78.12085141467377!3d17.594702687954708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbefdc136bffbb%3A0x73414ff6594c9191!2sIndian%20Institute%20Of%20Technology%20(IIT)%2C%20Hyderabad!5e0!3m2!1sen!2sin!4v1655122639435!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa fa-house"></i>
+                <span>
+                    <h5>IIT Hyderabad , Kandi Sangareddy</h5>
+                    <p>Hyderabad , Telangana</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>7470461133</h5>
+                    <!-- <p>Monday To Saturday , 10AM TO 6PM</p> -->
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>lohitya2002@gmail.com</h5>
+                    <p>Email me your query</p>
+                </span>
+            </div>
+        </div>
+        <div class="contact-col">
+            <form action="">
+                <input type="text" placeholder="Enter Your name" required>
+                <input type="email" placeholder="Enter Your email" required>
+                <input type="text" placeholder="Enter Your subject" required>
+                <textarea rows="8" placeholder="message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+
+
+
+    <!-- ----------Footer---------  -->
+    <section class="footer">
+        <h4>About Me</h4>
+        <p>I am a passionate programmer and have interest in web and software development. I love playing cricket and badminton .Below are my social media handles and github</p>
+        <div class="icons">
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <i class="fa-brands fa-instagram"></i>
+            <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+    <!-- -------------script--------------- -->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+</body>
+
+</html>
